@@ -45,7 +45,6 @@ const AppProvider = ({ children }) => {
   let firstPostIndex = lastPostIndex - postsPerPage;
   let currentPost = filteredData.slice(firstPostIndex, lastPostIndex)
   let totalPost = filteredData.length
-  console.log(totalPost)
 
 
   const value_converter = (value) => {
